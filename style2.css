@@ -1,0 +1,79 @@
+body {
+  margin: auto;
+  padding: 0%;
+  display: flex;
+}
+
+.sidbut>a>button{
+    position: relative;
+    /* float: right; */
+    left: 770px;
+    top: 65px;
+    width: 120px;
+    height: 30px;
+    border: 0px;
+    border-radius: 70px;
+    cursor: pointer;
+    font-family: Lexend Deca;
+    background-color: #181c28;
+    color: #f2f2f2;
+  }
+  
+  .sidbut>a>button:hover{
+    background-color: #05aa4a;
+  }
+
+.container {
+  background-color: #181c28;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 57vh;
+  width: 550px;
+  margin: 100px auto;
+  /* overflow: hidden; */
+  /* justify-content: space-between; */
+}
+.header {
+  padding: 10px;
+  background-color: #eb5020;
+  width: 350px;
+  height: 150px;
+}
+.nav {
+  padding: 10px;
+  background-color: #ffa401;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  display: block;
+  left: 11px;
+}
+.content {
+  padding: 10px;
+  background-color: #05aa4a;
+  width: 220px;
+  height: 180px;
+  position: relative;
+  top: 5%;
+}
+.footer1 {
+  padding: 10px;
+  background-color: #01aefd;
+  display: flex;
+  position: relative;
+  width: 280px;
+  height: 75px;
+  top: 5%;
+  right: 40%;
+}
+.footer2 {
+  padding: 10px;
+  background-color: #01aefd;
+  display: flex;
+  position: relative;
+  width: 280px;
+  height: 75px;
+  left: 67.5%;
+  bottom: 90%;
+}
